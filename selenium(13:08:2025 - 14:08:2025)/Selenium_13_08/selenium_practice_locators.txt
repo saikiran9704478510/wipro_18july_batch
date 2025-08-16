@@ -1,0 +1,102 @@
+Locators from Selenium Automation Practice page
+
+1. First Name:
+   - id = firstName
+   - name = firstName
+   - CSS: #firstName
+   - XPath: //input[@id='firstName']
+
+2. Last Name:
+   - id = lastName
+   - name = lastName
+   - CSS: #lastName
+   - XPath: //input[@id='lastName']
+
+3. Email:
+   - id = userEmail
+   - name = userEmail
+   - CSS: #userEmail
+   - XPath: //input[@id='userEmail']
+
+4. Gender (Male):
+   - id = gender-radio-1
+   - name = gender
+   - CSS: #gender-radio-1
+   - XPath: //input[@id='gender-radio-1']
+
+5. Gender (Female):
+   - id = gender-radio-2
+   - name = gender
+   - CSS: #gender-radio-2
+   - XPath: //input[@id='gender-radio-2']
+
+6. Gender (Other):
+   - id = gender-radio-3
+   - name = gender
+   - CSS: #gender-radio-3
+   - XPath: //input[@id='gender-radio-3']
+
+7. Mobile Number:
+   - id = userNumber
+   - name = userNumber
+   - CSS: #userNumber
+   - XPath: //input[@id='userNumber']
+
+8. Date of Birth:
+   - id = dateOfBirthInput
+   - CSS: #dateOfBirthInput
+   - XPath: //input[@id='dateOfBirthInput']
+
+9. Subjects:
+   - id = subjectsInput
+   - CSS: #subjectsInput
+   - XPath: //input[@id='subjectsInput']
+
+10. Hobbies (Sports):
+    - id = hobbies-checkbox-1
+    - name = hobbies
+    - CSS: #hobbies-checkbox-1
+    - XPath: //input[@id='hobbies-checkbox-1']
+
+11. Hobbies (Reading):
+    - id = hobbies-checkbox-2
+    - name = hobbies
+    - CSS: #hobbies-checkbox-2
+    - XPath: //input[@id='hobbies-checkbox-2']
+
+12. Hobbies (Music):
+    - id = hobbies-checkbox-3
+    - name = hobbies
+    - CSS: #hobbies-checkbox-3
+    - XPath: //input[@id='hobbies-checkbox-3']
+
+13. Picture Upload:
+    - id = uploadPicture
+    - CSS: #uploadPicture
+    - XPath: //input[@id='uploadPicture']
+
+14. Current Address:
+    - id = currentAddress
+    - name = currentAddress
+    - CSS: #currentAddress
+    - XPath: //textarea[@id='currentAddress']
+
+15. State Dropdown:
+    - id = react-select-3-input
+    - CSS: #react-select-3-input
+    - XPath: //input[@id='react-select-3-input']
+
+16. City Dropdown:
+    - id = react-select-4-input
+    - CSS: #react-select-4-input
+    - XPath: //input[@id='react-select-4-input']
+
+17. Submit Button:
+    - id = submit
+    - CSS: #submit
+    - XPath: //button[@id='submit']
+
+18. Close Modal Button (After Submission):
+    - id = closeLargeModal
+    - CSS: #closeLargeModal
+    - XPath: //button[@id='closeLargeModal']

@@ -1,0 +1,15 @@
+GIT COMMANDS
+
+1.git config --global user.name "PratyushKDas"
+2.git config --global user.email "daspratyush444@gmail.com"
+3.git config user.name
+4.git config user.email
+5.git init
+6.git status
+7.git add hello.txt
+8.git add file1.txt file2.txt
+9.git add .
+10.git reset <file_name>
+11.git commit -m "Your descriptive message here"
+12.git remote add origin <repository_URL>
+13.git push -u origin main

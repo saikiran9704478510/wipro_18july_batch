@@ -1,0 +1,7 @@
+"Test Scenario","Steps","Expected Result"
+"Invalid username, valid password","Enter wrong username (e.g., Admi), correct password (admin123), Login","https://www.forum.portnov.com/forum/online/14651-orange-hrm-gui-and-functionality-test-cases"
+"Valid username, invalid password","Enter correct username (Admin), wrong password (e.g., admin321), Login","https://www.forum.portnov.com/forum/online/14651-orange-hrm-gui-and-functionality-test-cases"
+"Invalid username and password","Enter wrong username (Admi), wrong password (admin321), Login","https://www.forum.portnov.com/forum/online/14651-orange-hrm-gui-and-functionality-test-cases"
+"Blank username, valid password","Leave username blank, enter correct password, Login","https://dzone.com/articles/automated-functional-testing-a-step-by-step-guide"
+"Valid username, blank password","Enter correct username, leave password blank, Login","https://dzone.com/articles/automated-functional-testing-a-step-by-step-guide"
+"Blank username and password","Leave both fields blank, Login","https://dzone.com/articles/automated-functional-testing-a-step-by-step-guide"

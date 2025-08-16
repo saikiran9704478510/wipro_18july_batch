@@ -1,0 +1,5 @@
+"Case","Format (.png?)","Size (<25kb?)","Action/Expected Output"
+"1","T","T","Upload succeeds"
+"2","T","F","Error: File size must be less than 25kb"
+"3","F","T","Error: File format must be .png"
+"4","F","F","Error: File format must be .png"
