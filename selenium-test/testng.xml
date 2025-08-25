@@ -5,7 +5,7 @@
     <test name="Form Automation Tests">
         <classes>
             <!-- Fully qualified class name -->
-            <class name="test_ng.GroupsDemo"/>
+            <class name="test_ng.LoginAutomationTestALL"/>
         </classes>
     </test>
 
