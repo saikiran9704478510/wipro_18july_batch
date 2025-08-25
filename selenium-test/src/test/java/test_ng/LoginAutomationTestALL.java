@@ -72,7 +72,7 @@ public class LoginAutomationTestALL {
     @AfterMethod
     public void afterMethod() {
         System.out.println("🌐 Closing Browser after Test Method...");
-        softAssert.assertAll();  // collect soft assertions
+        softAssert.assertAll(); // collect soft assertions
     }
 
     // ---------- TEST CASES ----------
@@ -87,13 +87,12 @@ public class LoginAutomationTestALL {
 
         WebElement logoutBtn = driver.findElement(By.xpath("//a[contains(text(),'Log out')]"));
 
-        // Hard Assertion
+     // Hard assertion
         Assert.assertTrue(logoutBtn.isDisplayed(), "❌ Valid Login Failed - Logout button not visible!");
 
-        // Soft Assertion (just for demo, checking wrong expected text intentionally)
-        String actualText = logoutBtn.getText();
-        String expectedText = "Signout";   // wrong intentionally
-        softAssert.assertEquals(actualText, expectedText, "❌ Soft Assertion Failed - Logout button text mismatch!");
+        // Soft assertion – NOW uses the correct expected text
+        String actualLogoutText = logoutBtn.getText();
+        softAssert.assertEquals(actualLogoutText, "Log out","❌ Soft Assertion Failed - Logout button text mismatch!");
 
         System.out.println("✅ Valid Login Passed: User logged in successfully!");
     }
