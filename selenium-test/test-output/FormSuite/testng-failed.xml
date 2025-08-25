@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [FormSuite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="FormTest(failed)">
+    <parameter name="date" value="18-08-2025"/>
+    <parameter name="firstName" value="Sai"/>
+    <parameter name="lastName" value="Kiran"/>
+    <parameter name="gender" value="Male"/>
+    <parameter name="experience" value="2"/>
+    <classes>
+      <class name="test_ng.FormFillingTest">
+        <methods>
+          <include name="selectDropdowns"/>
+          <include name="setup"/>
+          <include name="submitForm"/>
+          <include name="uploadFile"/>
+          <include name="selectProfessionAndTools"/>
+          <include name="tearDown"/>
+          <include name="fillBasicDetails" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- test_ng.FormFillingTest -->
+    </classes>
+  </test> <!-- FormTest(failed) -->
+</suite> <!-- Failed suite [FormSuite] -->

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [ShoppingCartSuite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="ShoppingCartTest(failed)">
+    <parameter name="country" value="India"/>
+    <parameter name="month" value="12"/>
+    <parameter name="city" value="Hyderabad"/>
+    <parameter name="year" value="2025"/>
+    <parameter name="name" value="Sai Kiran"/>
+    <parameter name="productName" value="Samsung galaxy s6"/>
+    <parameter name="card" value="4111111111111111"/>
+    <classes>
+      <class name="test_ng.ShoppingCartAutomation">
+        <methods>
+          <include name="goToCartAndCheckout"/>
+          <include name="fillOrderForm"/>
+          <include name="addProductToCart" invocation-numbers="0"/>
+          <include name="tearDown"/>
+          <include name="skipTestExample"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- test_ng.ShoppingCartAutomation -->
+    </classes>
+  </test> <!-- ShoppingCartTest(failed) -->
+</suite> <!-- Failed suite [ShoppingCartSuite] -->

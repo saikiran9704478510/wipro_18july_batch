@@ -1,0 +1,4 @@
+2025-08-20 10:49:14 [main] INFO  TestNGWithLogger - Setting up Chrome browser
+2025-08-20 10:49:24 [main] INFO  TestNGWithLogger - Browser launched successfully
+2025-08-20 10:49:25 [main] INFO  TestNGWithLogger - Navigated to OrangeHRM login page
+2025-08-20 10:49:28 [main] INFO  TestNGWithLogger - Browser closed successfully
