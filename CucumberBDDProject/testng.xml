@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="FormAutomationSuite" verbose="1">
+    
+    <test name="Form Automation Tests">
+        <classes>
+            <!-- Fully qualified class name -->
+            <class name="runners.demotestrun"/>
+        </classes>
+    </test>
+</suite>
